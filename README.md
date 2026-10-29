@@ -1,17 +1,37 @@
-# kampusku
+# KampusKu
 
-A new Flutter project.
+Aplikasi jadwal mata kuliah berbasis Flutter.
 
-## Getting Started
+## Fitur
 
-This project is a starting point for a Flutter application.
+- Menampilkan jadwal mata kuliah.
+- Menampilkan tanggal dalam bahasa Indonesia.
+- Menampilkan daftar mata kuliah beserta kode dan hari perkuliahan.
 
-A few resources to get you started if this is your first Flutter project:
+## Teknologi
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Dart
+- Material Design
+- Package `intl`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Menjalankan Aplikasi
+
+Pastikan Flutter sudah terpasang, kemudian jalankan perintah berikut dari folder proyek:
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Pengujian
+
+Jalankan pengujian dengan perintah:
+
+```bash
+flutter test
+```
+
+## Status
+
+Proyek KampusKu dikembangkan sebagai aplikasi pembelajaran Flutter.
